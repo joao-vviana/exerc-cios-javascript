@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+</head>
+<body>
+    <script>
+
+        let totalCompra = 200
+        let valorRecebido = 140
+        let diferenca = totalCompra - valorRecebido
+        
+        document.write("Valor total da compra: R$ ", totalCompra.toFixed(2), "<br>")
+        document.write("Valor pago: R$ ", valorRecebido.toFixed(2))
+
+        if(diferenca < totalCompra) {
+            document.write(" <br> Saldo devedor: R$ ", diferenca.toFixed(2))
+        } else {
+            document.write("Troco: R$__,__")
+        }
+
+
+    </script>
+</body>
+</html>
